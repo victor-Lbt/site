@@ -125,5 +125,7 @@ button {
 /*début du CV*/
 h2{
 color: #64acff;
-
+}
+.cv{
+    font-family:"Arial Black", Arial, Verdana, sans-serif;
 }
