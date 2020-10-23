@@ -5,9 +5,8 @@ body{
 }
 .bandeau  {
     margin:-21px;
-    height:50px;
+    height:100px;
     background-color:#64acff;
-    height: 60px;
 }
 li {
     list-style:none !important;
@@ -27,7 +26,7 @@ nav ul li {
     list-style: none;
     line-height:auto;
     float:left;
-    background-color:#64abfb;
+    background-color:#64acff;
 }
      
 nav ul li a {
@@ -100,20 +99,13 @@ label {
 }
   
 input, textarea {
-/* Pour s'assurer que tous les champs texte ont la même police.
-   Par défaut, les textarea ont une police monospace */
     font: 1em sans-serif;
-  
- /* Pour que tous les champs texte aient la même dimension */
     width: 300px;
     box-sizing: border-box;
-  
-/* Pour harmoniser le look & feel des bordures des champs texte */
     border: 1px solid #999;
 }
   
 input:focus, textarea:focus {
-/*soulignement des élémnet*/
     border-color: #000;
 }
   
@@ -130,3 +122,8 @@ button {
     margin-left: .5em;
 }
 
+/*début du CV*/
+h2{
+color: #64acff;
+
+}
